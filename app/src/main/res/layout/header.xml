@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/back"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom"
+        android:contentDescription="prof_pic"
+        android:requiresFadingEdge="horizontal"
+        app:srcCompat="@drawable/pp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:fontFamily="@font/allan"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:shadowDx=".1"
+        android:text="@string/user_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left|center_vertical"
+        android:layout_weight="1"
+        android:fontFamily="@font/antic_slab"
+        android:text="@string/email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp" />
+
+</LinearLayout>

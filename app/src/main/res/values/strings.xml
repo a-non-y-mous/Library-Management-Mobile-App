@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Library Management</string>
+    <string name="app_name">LiBruh</string>
+    <string name="home_text">My Books</string>
+    <string name="user_name">Bruh</string>
+    <string name="website">www.libruh.ju</string>
+    <string name="email">mail@e.com</string>
+    <string name="navigation_drawer_open">Open Navigaton Drawer</string>
+    <string name="navigation_drawer_close">Close Navigaton Drawer</string>
+    <string name="signInGoogle">Sign In wth Google</string>
+    <string name="action_reset">Refresh</string>
 </resources>
